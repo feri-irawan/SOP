@@ -25,7 +25,7 @@ if (document.currentScript) {
 	var load = new URL(base).searchParams.get("load");
 
 	if (load !== null) {
-		var files = ["../prism-live.css"];
+		var files = ["https://live.prismjs.com/prism-live.css"];
 
 		if (load) {
 			files.push(...load.split(/,/).map(c => /\./.test(c)? c : `prism-live-${c}.js`));
