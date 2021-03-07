@@ -1,18 +1,5 @@
-
 /*
-
-highlight v3  !! Modified by Jon Raasch (http://jonraasch.com) to fix IE6 bug !!
-
-Highlights arbitrary terms.
-
-<http://johannburkard.de/blog/programming/javascript/highlight-javascript-text-higlighting-jquery-plugin.html>
-
-MIT license.
-
-Johann Burkard
-<http://johannburkard.de>
-<mailto:jb@eaio.com>
-
+ Search On Page (SOP)
 */
 
 jQuery.fn.highlight = function(pat) {
